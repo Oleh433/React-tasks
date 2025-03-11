@@ -1,0 +1,27 @@
+.header, .palettes {
+    margin: 20px;
+  }
+  
+  .palette {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .palette .colors {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+
+.home-page {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+.palette-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
